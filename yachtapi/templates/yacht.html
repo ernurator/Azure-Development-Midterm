@@ -1,0 +1,20 @@
+
+<div>
+    <p>id: {{ yacht.id }}</p>
+    <p>name: {{ yacht.name }}</p>
+    <p>length: {{ yacht.length }}</p>
+    <p>length_waterline: {{ yacht.length_waterline }}</p>
+    <p>width: {{ yacht.width }}</p>
+    <p>precipitation: {{ yacht.precipitation }}</p>
+    <p>displacement: {{ yacht.displacement }}</p>
+    <p>engine: {{ yacht.engine }}</p>
+    <p>sleeping_places: {{ yacht.sleeping_places }}</p>
+    <p>water_volume: {{ yacht.water_volume }}</p>
+    <p>fuel_volume: {{ yacht.fuel_volume }}</p>
+    <p>sailing_area: {{ yacht.sailing_area }}</p>
+    <p>front_photo (full image): {{ yacht.front_photo }}</p>
+    <p>side_photo (full image): {{ yacht.side_photo }}</p>
+    <p>Thumbnails:</p>
+    <img src="{{ yacht.front_photo_thumbnail }}" alt="Front photo">
+    <img src="{{ yacht.side_photo_thumbnail }}" alt="Side photo">
+</div>
